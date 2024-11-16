@@ -56,8 +56,6 @@ p {
 
 #automotive, #maritime, #medical, #physics, #myths {
 	text-align: center;
-
-
 }
 
 #footer-container {
@@ -71,5 +69,5 @@ p {
 #main-container {
 	display: grid;
 	grid-template-columns: 25% 50% 25%;
-	gap: 15px;
+	gap: 5px;
 }
