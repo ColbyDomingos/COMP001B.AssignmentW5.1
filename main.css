@@ -42,7 +42,7 @@ header {
 }
 
 main {
-
+	width: 100%;
 }
 
 p {
@@ -50,22 +50,27 @@ p {
 	margin-bottom: 1em;
 }
 
+
 #intro {
 	font-size: 22px;
 }
 
 #automotive, #maritime, #medical, #physics, #myths {
+	width: 50%;
 
+	text-align: center;
 }
 
 #footer-container {
-	
+	width: 100%;
 }
 
 #header-container {
-
+	width: 100%;
 }
 
 #main-container {
-
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	gap: 10px;
 }
